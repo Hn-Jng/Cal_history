@@ -13,14 +13,10 @@ public class History {
 		
 		PrintWriter history = new PrintWriter(new FileWriter("D:/out.txt", true));
 		
-<<<<<<< HEAD
-		// °è»ê±â ÅëÇØ ÀÔ·Â¹ÞÀ» ³»¿ëµé
-=======
-		// ê³„ì‚°ê¸° í†µí•´ ìž…ë ¥ë°›ì„ ë‚´ìš©ë“¤
->>>>>>> a038463c05e1c8ccc468a979cafb0ba50d725cbc
-		
+		// °è»ê±â¿¡ ÀÔ·Â¹ÞÀ» ³»¿ë
+
 //		for(int i=0; i<30; i++) {
-//			String data = i + " ë²ˆì§¸ ì¤„ìž…ë‹ˆë‹¤.";
+//			String data = i + "¹øÀ÷ ÁÙÀÔ´Ï´Ù.";
 //			history.println(data);
 //		}
 		
