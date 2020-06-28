@@ -33,17 +33,15 @@ public class HistoryRead {
 		scanner.close();
 		
 		// 텍스트파일에서 가져온 historyList의 문자열, 화면에 출력
-		for(int i=0; i<historyList.size(); i++) {
-			System.out.println(historyList.get(i));
-		
-		// 텍스트파일의 문자열도 20줄로 초기화하기위해 사용
 		PrintWriter history = new PrintWriter(new FileWriter("D:/out.txt"));
 		
-		for(int a=0; a < historyList.size(); a++) {
-			history.println(historyList.get(a));
-		}
-		history.close();
+		for(int i=0; i<historyList.size(); i++) {
+			
+			System.out.println(historyList.get(i));  // 텍스트파일에서 가져온 'historyList' 문자열 화면에 출력
+			history.println(historyList.get(i));  // 텍스트파일의 문자열도 20줄로 초기화하기위해 사용
+			
 	}
+		history.close();
 		
 	}
 }

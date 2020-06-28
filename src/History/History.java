@@ -13,7 +13,7 @@ public class History {
 		
 		PrintWriter history = new PrintWriter(new FileWriter("D:/out.txt", true));
 		
-		// 계산기 통해 입력받은 내용들
+		// 계산기 통해 입력받을 내용들
 		
 //		for(int i=0; i<30; i++) {
 //			String data = i + " 번째 줄입니다.";
